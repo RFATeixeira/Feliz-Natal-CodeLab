@@ -53,16 +53,38 @@
     <main class="main">
       <div class="flex flex-col justify-center items-center my-[80px]">
         <div
-          class="flex flex-col justify-center items-center text-center w-full max-w-[327px]"
+          class="flex flex-col justify-center items-center text-center w-full max-w-[327px] md:max-w-[477px]"
         >
-          <h2 class="text-[32px] font-semibold">Tempo limitado</h2>
-          <p class="text-lg leading-6 mt-2">
+          <h2 class="text-[32px] md:text-[40px] font-semibold">
+            Tempo limitado
+          </h2>
+          <p class="text-lg md:text-[20px] leading-6 mt-2">
             Nesssas festas de fim de ano mande um presente para a pessoa amada e
             compartilhe a alegria do Natal.
           </p>
         </div>
-        <div class="text-[32px] font-semibold text-brand-red-10 mt-6">
-          <p>10d-24h-01m-52s</p>
+        <div
+          class="text-[32px] md:text-[64px] font-semibold text-brand-red-10 mt-6 flex flex-row gap-2"
+        >
+          <div class="count">
+            <p type="text" id="days">0</p>
+            <span>d</span>
+          </div>
+          <span>-</span>
+          <div class="count">
+            <p type="text" id="hours">0</p>
+            <span>h </span>
+          </div>
+          <span>-</span>
+          <div class="count">
+            <p type="text" id="mins">0</p>
+            <span>m </span>
+          </div>
+          <span>-</span>
+          <div class="count">
+            <p type="text" id="seconds">0</p>
+            <span>s</span>
+          </div>
         </div>
         <div class="mt-6 mx-4 w-full max-w-[478px]">
           <img src="./src/image/illustration-1.svg" alt="Presentes de Natal" />
@@ -130,5 +152,6 @@
         </a>
       </div>
     </footer>
+    <script src="./src/script.js"></script>
   </body>
 </html>

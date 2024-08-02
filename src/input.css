@@ -17,4 +17,7 @@
   .btnSocial {
     @apply flex justify-center items-center bg-brand-red-10/10 rounded-full border-2 border-transparent hover:border-brand-red-10 transition duration-300;
   }
+  .count {
+    @apply flex flex-row;
+  }
 }
