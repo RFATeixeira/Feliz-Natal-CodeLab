@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hero {
+    @apply bg-brand-red-20 w-full h-[857px] md:h-[1008px] lg:h-[560px] flex justify-center items-center;
+  }
+  .btnPrimary {
+    @apply bg-brand-red-10 p-4 w-full font-bold text-white rounded max-w-[327px] md:max-w-[238px] border-2 border-brand-red-10 hover:bg-brand-red-20 transition duration-300 hover:text-brand-red-10;
+  }
+  .main {
+    @apply bg-white w-full flex flex-col justify-center items-center px-4;
+  }
+  .btnSocial {
+    @apply flex justify-center items-center bg-brand-red-10/10 rounded-full border-2 border-transparent hover:border-brand-red-10 transition duration-300;
+  }
+}
