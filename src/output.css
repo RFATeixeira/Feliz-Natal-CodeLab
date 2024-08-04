@@ -633,10 +633,8 @@ video {
 }
 
 .btnPrimary:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 233 232 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(205 60 50 / var(--tw-text-opacity));
+  background-color: rgb(205 60 50 / 0.9);
+  background-image: url('../src/image/snowfall.gif');
 }
 
 @media (min-width: 768px){
@@ -797,6 +795,10 @@ video {
   z-index: 30;
 }
 
+.z-50{
+  z-index: 50;
+}
+
 .float-start{
   float: inline-start;
 }
@@ -874,6 +876,11 @@ video {
 .mx-8{
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .my-\[80px\]{
@@ -1117,10 +1124,6 @@ video {
   height: 14rem;
 }
 
-.h-12{
-  height: 3rem;
-}
-
 .h-20{
   height: 5rem;
 }
@@ -1143,6 +1146,10 @@ video {
 
 .h-52{
   height: 13rem;
+}
+
+.h-\[100vh\]{
+  height: 100vh;
 }
 
 .h-\[120px\]{
@@ -1199,10 +1206,6 @@ video {
 
 .h-\[643px\]{
   height: 643px;
-}
-
-.h-\[700px\]{
-  height: 700px;
 }
 
 .h-\[81px\]{
@@ -1355,6 +1358,10 @@ video {
 
 .max-w-\[960px\]{
   max-width: 960px;
+}
+
+.flex-1{
+  flex: 1 1 0%;
 }
 
 .flex-shrink{
@@ -1891,10 +1898,6 @@ video {
 
 .justify-items-stretch{
   justify-items: stretch;
-}
-
-.gap-0{
-  gap: 0px;
 }
 
 .gap-1{
@@ -3520,6 +3523,10 @@ video {
     margin-right: 5rem;
   }
 
+  .md\:mt-12{
+    margin-top: 3rem;
+  }
+
   .md\:contents{
     display: contents;
   }
@@ -3541,10 +3548,6 @@ video {
   .md\:size-32{
     width: 8rem;
     height: 8rem;
-  }
-
-  .md\:h-10{
-    height: 2.5rem;
   }
 
   .md\:h-16{
@@ -3783,6 +3786,10 @@ video {
     margin-right: 4rem;
   }
 
+  .lg\:mt-36{
+    margin-top: 9rem;
+  }
+
   .lg\:size-40{
     width: 10rem;
     height: 10rem;
@@ -3979,10 +3986,6 @@ video {
 
   .xl\:h-\[560px\]{
     height: 560px;
-  }
-
-  .xl\:h-\[700px\]{
-    height: 700px;
   }
 
   .xl\:w-\[37rem\]{

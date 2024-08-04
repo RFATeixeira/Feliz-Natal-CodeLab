@@ -9,7 +9,7 @@
     @apply bg-brand-red-20 w-full h-[857px] md:h-[1008px] lg:h-[560px] flex justify-center items-center;
   }
   .btnPrimary {
-    @apply bg-brand-red-10 p-4 w-full font-bold text-white rounded max-w-[327px] md:max-w-[238px] border-2 border-brand-red-10 hover:bg-brand-red-20 transition duration-300 hover:text-brand-red-10;
+    @apply bg-brand-red-10 p-4 w-full font-bold text-white rounded max-w-[327px] md:max-w-[238px] border-2 border-brand-red-10 hover:bg-snowFall hover:bg-brand-red-10/90 transition duration-300;
   }
   .main {
     @apply bg-white w-full flex flex-col justify-center items-center px-4;

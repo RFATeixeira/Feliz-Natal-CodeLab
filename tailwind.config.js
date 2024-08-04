@@ -8,6 +8,9 @@ module.exports = {
         "brand-red-20": "#FFE9E8",
         "dark-color": "#121214",
       },
+      backgroundImage: {
+        snowFall: "url('../src/image/snowfall.gif')",
+      },
     },
     fontFamily: {
       body: ["Archivo", "sans-serif"],
